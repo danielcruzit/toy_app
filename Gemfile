@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.0.0'
 
+
 gem 'rails', '6.0.0'
 gem 'puma', '3.12.1'
 gem 'sass-rails', '5.1.0'
@@ -18,7 +19,7 @@ end
 
 group :development do
   gem 'web-console', '4.0.1'
-  gem 'listen', '3.1.5'
+  gem 'listen', '3.4.1'
   gem 'spring', '2.1.0'
   gem 'spring-watcher-listen', '2.0.1'
 end
